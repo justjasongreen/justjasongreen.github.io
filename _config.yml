@@ -1,1 +1,7 @@
-exclude: [vendor]
+exclude:
+    - Dockerfile
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - docker-compose.yml
+    - vendor
