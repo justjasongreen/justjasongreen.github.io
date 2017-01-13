@@ -3,3 +3,7 @@
 
 @import "variables";
 @import "bootstrap";
+
+body {
+    padding-top: $navbar-height;
+}
