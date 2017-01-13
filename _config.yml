@@ -1,3 +1,14 @@
+# site.*
+title: "Just Jason Green"
+
+# Build Settings
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: default
+            title_separator: " @ "
 exclude:
     - Dockerfile
     - Gemfile
@@ -5,3 +16,5 @@ exclude:
     - README.md
     - docker-compose.yml
     - vendor
+sass:
+    style: :compressed
