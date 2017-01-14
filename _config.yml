@@ -20,5 +20,6 @@ exclude:
     - vendor
 gems:
     - jekyll-feed
+    - jekyll-sitemap
 sass:
     style: :compressed
