@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/ruby
+# Created by https://www.gitignore.io/api/ruby,sass
 
 ### Ruby ###
 *.gem
@@ -53,4 +53,9 @@ Gemfile.lock
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
 
-# End of https://www.gitignore.io/api/ruby
+
+### Sass ###
+.sass-cache/
+*.css.map
+
+# End of https://www.gitignore.io/api/ruby,sass

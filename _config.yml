@@ -1,3 +1,30 @@
+# site.*
+title: "Just Jason Green"
+description: "Web designer, software developer, data scientist, digital artist and creative writer from Melbourne, Australia"
+logo: "/assets/images/JustJasonGreen.jpg"
+author:
+    name: "Jason Green"
+    twitter: "JustJasonGreen"
+social:
+    name: "Jason Green"
+    links:
+        - "https://github.com/justjasongreen"
+        - "https://www.facebook.com/justjasongreen"
+        - "https://twitter.com/JustJasonGreen"
+facebook:
+    admins: "100008472259120"
+twitter:
+    username: "JustJasonGreen"
+
+# Build Settings
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: default
+            jumbotron_class: "underwater"
+            title_separator: " @ "
 exclude:
     - Dockerfile
     - Gemfile
@@ -5,3 +32,9 @@ exclude:
     - README.md
     - docker-compose.yml
     - vendor
+gems:
+    - jekyll-feed
+    - jekyll-seo-tag
+    - jekyll-sitemap
+sass:
+    style: :compressed

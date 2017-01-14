@@ -1,0 +1,10 @@
+- text: "Home"
+  link_path: "/"
+
+- text: "Projects"
+  link_path: "/projects/"
+  active_path: "/projects/"
+
+- text: "Blog"
+  link_path: "/blog/"
+  active_path: "/blog/"
