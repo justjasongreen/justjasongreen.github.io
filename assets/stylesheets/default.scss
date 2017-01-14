@@ -7,3 +7,10 @@
 body {
     padding-top: $navbar-height;
 }
+
+.underwater {
+    background: url('{{ "/assets/images/pexels-photo-108055.jpeg" | relative_url }}');
+    background-position: 0% 37%;
+    background-size: cover;
+    color: $gray-lighter;
+}
