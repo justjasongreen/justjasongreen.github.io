@@ -4,8 +4,25 @@
 @import "variables";
 @import "bootstrap";
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     padding-top: $navbar-height;
+    margin-bottom: $footer-height + $line-height-computed;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: $footer-width;
+    height: $footer-height;
+    padding: $footer-padding;
+    background-color: $footer-background-color;
+    color: $footer-color;
+    border-top: $footer-border;
 }
 
 .underwater {

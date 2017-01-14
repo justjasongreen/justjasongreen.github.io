@@ -1,5 +1,6 @@
 # site.*
 title: "Just Jason Green"
+owner: "Jason Green"
 
 # Build Settings
 defaults:
@@ -17,5 +18,7 @@ exclude:
     - README.md
     - docker-compose.yml
     - vendor
+gems:
+    - jekyll-feed
 sass:
     style: :compressed
