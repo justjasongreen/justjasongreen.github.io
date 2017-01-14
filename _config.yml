@@ -26,6 +26,12 @@ defaults:
             layout: default
             jumbotron_class: "underwater"
             title_separator: " @ "
+    -
+        scope:
+            path: "blog"
+        values:
+            jumbotron_class: "writing"
+            title: "Latest Blog Posts"
 exclude:
     - Dockerfile
     - Gemfile

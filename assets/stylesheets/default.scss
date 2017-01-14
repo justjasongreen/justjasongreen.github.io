@@ -41,3 +41,10 @@ body {
     background-position: 0% 37%;
     background-size: cover;
 }
+
+.writing {
+    background: url('{{ "/assets/images/pexels-photo-24193.jpg" | relative_url }}'), $gray-dark;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+}
