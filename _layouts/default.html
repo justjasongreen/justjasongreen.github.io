@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>{{ page.title }}{% if page.title and site.title %}{{ page.title_separator }}{% endif %}{{ site.title }}</title>
+        {% seo title=false %}
         {% feed_meta %}
         <!-- Bootstrap -->
         <link href="{{ '/assets/stylesheets/default.css' | relative_url }}" rel="stylesheet">
@@ -50,7 +51,7 @@
         </div>
         <footer class="footer">
             <div class="container">
-                <p class="pull-left">&copy; {{ site.time | split:"-" | first }} {{ site.owner }}</p>
+                <p class="pull-left">&copy; {{ site.time | split:"-" | first }} {{ site.author.name }}</p>
                 <p class="pull-right"><a href="{{ '/feed.xml' | relative_url }}"><i class="fa fa-rss fa-fw fa-lg"></i> Subscribe (via RSS)</a></p>
             </div>
         </footer>
