@@ -29,3 +29,14 @@
     - text: "Technology"
       link_path: "/blog/technology/"
       active_path: "/blog/technology/"
+    - is_separator: true
+    - text: "Tags"
+      is_header: true
+    - text: "Blogging"
+      link_path: "/blog/blogging/"
+    - text: "Critical Thinking"
+      link_path: "/blog/thinking/"
+    - text: "Learning"
+      link_path: "/blog/learning/"
+    - text: "Motivation"
+      link_path: "/blog/motivation/"
