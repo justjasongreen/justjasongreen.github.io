@@ -28,6 +28,13 @@ defaults:
             title_separator: " @ "
     -
         scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: post
+            author: "jason"
+    -
+        scope:
             path: "blog"
         values:
             jumbotron_class: "writing"
@@ -37,7 +44,6 @@ defaults:
             path: "blog"
             type: "posts"
         values:
-            author: "jason"
             image: "/assets/images/pexels-photo-24193.jpg"
 exclude:
     - Dockerfile
