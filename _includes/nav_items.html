@@ -5,7 +5,7 @@
         {% elsif item.is_separator %}
             <li role="separator" class="divider"></li>
         {% elsif item.children.size > 0 %}
-            <li class="dropdown">
+            <li class="dropdown{% if page.url == item.link_path or page.url contains item.active_path %} active{% endif %}">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ item.text }}</span></a>
                 {% include nav_items.html items=item.children class='dropdown-menu' %}
             </li>

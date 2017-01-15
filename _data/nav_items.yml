@@ -10,5 +10,22 @@
   active_path: "/projects/"
 
 - text: "Blog"
-  link_path: "/blog/"
   active_path: "/blog/"
+  children:
+    - text: "Latest Blog Posts"
+      link_path: "/blog/"
+    - is_separator: true
+    - text: "Categories"
+      is_header: true
+    - text: "Art"
+      link_path: "/blog/art/"
+      active_path: "/blog/art/"
+    - text: "Business"
+      link_path: "/blog/business/"
+      active_path: "/blog/business/"
+    - text: "Life"
+      link_path: "/blog/life/"
+      active_path: "/blog/life/"
+    - text: "Technology"
+      link_path: "/blog/technology/"
+      active_path: "/blog/technology/"
