@@ -26,6 +26,25 @@ defaults:
             layout: default
             jumbotron_class: "underwater"
             title_separator: " @ "
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: post
+            author: "jason"
+    -
+        scope:
+            path: "blog"
+        values:
+            jumbotron_class: "writing"
+            title: "Latest Blog Posts"
+    -
+        scope:
+            path: "blog"
+            type: "posts"
+        values:
+            image: "/assets/images/pexels-photo-24193.jpg"
 exclude:
     - Dockerfile
     - Gemfile

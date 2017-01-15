@@ -15,7 +15,11 @@ body {
 }
 
 .jumbotron {
-    color: $gray-lighter;
+    color: rgb(255, 255, 255);
+}
+
+.jumbotron small {
+    color: rgb(192, 192, 192);
 }
 
 .footer {
@@ -39,5 +43,12 @@ body {
 .underwater {
     background: url('{{ "/assets/images/pexels-photo-108055.jpeg" | relative_url }}');
     background-position: 0% 37%;
+    background-size: cover;
+}
+
+.writing {
+    background: url('{{ "/assets/images/pexels-photo-24193.jpg" | relative_url }}'), $gray-dark;
+    background-blend-mode: overlay;
+    background-position: 0% 51%;
     background-size: cover;
 }

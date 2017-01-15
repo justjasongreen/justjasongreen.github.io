@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="col-md-9">
+        <p class="lead">{{ page.excerpt | remove:"<p>" | remove:"</p>" }}</p>
+        {{ content | remove:page.excerpt }}
+    </div>
+    <div class="col-md-offset-1 col-md-2 text-center">
+        <hr class="hidden-md hidden-lg" />
+        {% assign author = site.data.authors[page.author] %}
+        <p class="lead">
+            <a href="{{ author.url | default:site.url }}">
+                <img src="{{ author.image | default:site.logo | relative_url }}" alt="{{ author.name | default:site.author.name }}" class="img-responsive img-circle center-block" />
+                {{ author.name | default:site.author.name }}
+            </a>
+        </p>
+        <p class="lead">
+            <i class="fa fa-calendar fa-fw fa-lg"></i><br />
+            {{ page.date | date_to_long_string }}
+        </p>
+        <p class="lead">
+            <i class="fa fa-folder-open fa-fw fa-lg"></i><br />
+            {% assign has_categories = false %}
+            {% for category in page.categories %}
+                {% assign category_data = site.data.categories[category] %}
+                {% if category_data %}
+                    {% assign has_categories = true %}
+                    <a href="{{ category_data.link_path | relative_url}}">{{ category_data.name }}</a><br />
+                {% endif %}
+            {% endfor %}
+            {% unless has_categories %}
+                (none)
+            {% endunless %}
+        </p>
+        <p class="lead">
+            <i class="fa fa-tags fa-fw fa-lg"></i><br />
+            {% for tag in page.tags %}
+                {% assign tag_data = site.data.tags[tag] %}
+                {% if tag_data %}
+                    <a href="{{ tag_data.link_path | relative_url }}">{{ tag_data.name }}</a><br />
+                {% else %}
+                    {{ tag }}<br />
+                {% endif %}
+            {% else %}
+                (none)
+            {% endfor %}
+        </p>
+    </div>
+</div>

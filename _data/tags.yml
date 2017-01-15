@@ -1,0 +1,15 @@
+blogging:
+    name: "Blogging"
+    link_path: "/blog/blogging/"
+
+learning:
+    name: "Learning"
+    link_path: "/blog/learning/"
+
+motivation:
+    name: "Motivation"
+    link_path: "/blog/motivation/"
+
+thinking:
+    name: "Critical Thinking"
+    link_path: "/blog/thinking/"
