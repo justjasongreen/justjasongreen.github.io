@@ -31,6 +31,8 @@
     {% if index_mod_columns == 0 or forloop.last %}
         </div>
     {% endif %}
+{% else %}
+    <p>Nothing to see here... move along!</p>
 {% endfor %}
 
 {% if include.posts.size > grid_limit %}
