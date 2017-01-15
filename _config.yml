@@ -32,6 +32,13 @@ defaults:
         values:
             jumbotron_class: "writing"
             title: "Latest Blog Posts"
+    -
+        scope:
+            path: "blog"
+            type: "posts"
+        values:
+            author: "jason"
+            image: "/assets/images/pexels-photo-24193.jpg"
 exclude:
     - Dockerfile
     - Gemfile

@@ -49,6 +49,6 @@ body {
 .writing {
     background: url('{{ "/assets/images/pexels-photo-24193.jpg" | relative_url }}'), $gray-dark;
     background-blend-mode: overlay;
-    background-position: center;
+    background-position: 0% 51%;
     background-size: cover;
 }
