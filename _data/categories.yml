@@ -13,3 +13,7 @@ life:
 technology:
     name: "Technology"
     link_path: "/blog/technology/"
+
+unanimosity:
+    name: "Unanimosity"
+    link_path: "/projects/unanimosity/"
