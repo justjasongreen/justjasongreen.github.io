@@ -45,6 +45,18 @@ defaults:
             type: "posts"
         values:
             image: "/assets/images/pexels-photo-24193.jpg"
+    -
+        scope:
+            path: "projects"
+        values:
+            jumbotron_class: "tools"
+            title: "Latest Project Updates"
+    -
+        scope:
+            path: "projects"
+            type: "posts"
+        values:
+            image: "/assets/images/construction-work-carpenter-tools.jpg"
 exclude:
     - Dockerfile
     - Gemfile

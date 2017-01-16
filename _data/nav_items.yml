@@ -6,8 +6,28 @@
   active_path: "/curriculum-vitae/"
 
 - text: "Projects"
-  link_path: "/projects/"
   active_path: "/projects/"
+  children:
+    - text: "Latest Project Updates"
+      link_path: "/projects/"
+    - is_separator: true
+    - text: "Tags"
+      is_header: true
+    - text: "Creative Writing"
+      link_path: "/projects/creative-writing/"
+      active_path: "/projects/creative-writing/"
+    - text: "Data Science"
+      link_path: "/projects/data-science/"
+      active_path: "/projects/data-science/"
+    - text: "Digital Art"
+      link_path: "/projects/digital-art/"
+      active_path: "/projects/digital-art/"
+    - text: "Software Development"
+      link_path: "/projects/software-development/"
+      active_path: "/projects/software-development/"
+    - text: "Web Design"
+      link_path: "/projects/web-design/"
+      active_path: "/projects/web-design/"
 
 - text: "Blog"
   active_path: "/blog/"

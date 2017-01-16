@@ -40,6 +40,13 @@ body {
     background-size: cover;
 }
 
+.tools {
+    background: url('{{ "/assets/images/construction-work-carpenter-tools.jpg" | relative_url }}'), $gray-dark;
+    background-blend-mode: overlay;
+    background-position: 0% 37.5%;
+    background-size: cover;
+}
+
 .underwater {
     background: url('{{ "/assets/images/pexels-photo-108055.jpeg" | relative_url }}');
     background-position: 0% 37%;
