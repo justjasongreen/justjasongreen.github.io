@@ -71,3 +71,4 @@ gems:
     - jekyll-sitemap
 sass:
     style: :compressed
+timezone: Australia/Melbourne

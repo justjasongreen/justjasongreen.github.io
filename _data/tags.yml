@@ -10,6 +10,10 @@ motivation:
     name: "Motivation"
     link_path: "/blog/motivation/"
 
+online-marketing:
+    name: "Online Marketing"
+    link_path: "/blog/online-marketing/"
+
 thinking:
     name: "Critical Thinking"
     link_path: "/blog/thinking/"
